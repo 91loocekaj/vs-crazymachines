@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "crazymachines",
+  "name": "Crazy Machines",
+  "author": "jakecool19",
+  "description": "To be added",
+  "version": "1.0.0",
+  "dependency": {
+    "qptech": "1.3.0",
+    "qptechapi": "1.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "wireAmount" : 2
+    },
+    "file": "machines:itemtypes/part/wire.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ItemWire",
+    "file": "machines:itemtypes/part/wire.json"
+  },
+
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ItemPliers",
+    "file": "machines:itemtypes/tool/screwdriver.json"
+  },
+
+  {
+    "op": "replace",
+    "path": "/entityclass",
+    "value": "WireJunction",
+    "file": "machines:blocktypes/metal/electric/wires/wireplate-tin-electricjunction.json"
+  },
+]

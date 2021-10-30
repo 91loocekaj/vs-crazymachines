@@ -1,0 +1,42 @@
+{
+	"code": "radiator",
+	"class": "ElectricalBlock",
+	"entityclass": "BERadiator",
+  "entityBehaviors": [ { "name": "Animatable" } ],
+	"behaviors" : [{ "name": "HeatSource" }, {"name": "NWOrientable"}],
+	"variantgroups": [
+		{ "code":"orientation", "states": ["ns", "we"] },
+	],
+	"attributes": {
+		"distributionFaces": [],
+		"receiptionFacesByType": {"*-ns": ["north", "south"], "*-we": ["east", "west"]},
+		"maxFlux": 16,
+    "requiredFlux": 1,
+		"capacitance": 32,
+    "animationName": "run",
+	},
+	"creativeinventory": {
+		"general": [ "*-ns" ],
+		"qptech": [ "*-ns" ]
+	},
+	"blockmaterial": "Metal",
+	"shapeByType": {"*-ns" : { "base": "block/radiator", "rotateY": 90 }, "*-we" : { "base": "block/radiator", "rotateY": 0 }},
+
+	"drawtype": "json",
+
+	"texture" : {"base": "game:block/metal/ingot/copper"},
+
+	"resistance": 1,
+	"sideopaque": {
+		"all": false
+	},
+  "sidesolid":{
+    "all" : false,
+    "down": true,
+  },
+	"sounds": {
+		"place": "game:block/anvil",
+		"walk": "game:walk/stone"
+	},
+
+}

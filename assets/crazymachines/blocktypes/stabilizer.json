@@ -1,0 +1,36 @@
+{
+	"code": "stabilizer",
+	"class": "ElectricalBlock",
+	"entityclass": "BEStabilizer",
+  "entityBehaviors": [ { "name": "Animatable" } ],
+	"attributes": {
+		"distributionFaces": [],
+		"receiptionFaces": ["north", "south", "east", "west", "down"],
+		"maxFlux": 16,
+    "requiredFlux": 8,
+		"capacitance": 32,
+    "animationName": "run",
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"qptech": [ "*" ]
+	},
+	"blockmaterial": "Metal",
+	"shape": { "base": "block/stabilizer" },
+
+	"drawtype": "json",
+
+	"resistance": 1,
+	"sideopaque": {
+		"all": false
+	},
+  "sidesolid":{
+    "all" : false,
+    "down": true,
+  },
+	"sounds": {
+		"place": "game:block/anvil",
+		"walk": "game:walk/stone"
+	},
+
+}

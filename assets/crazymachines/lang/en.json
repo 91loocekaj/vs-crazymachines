@@ -1,0 +1,12 @@
+{
+  "block-stabilizer" : "Temporal Stabilizer",
+  "block-radiator-*" : "Radiator",
+
+  "wireinfo" : "Wired with {0}",
+  "wireinfo-north": "North Port",
+  "wireinfo-south": "South Port",
+  "wireinfo-east": "East Port",
+  "wireinfo-west": "West Port",
+  "wireinfo-up": "Up Port",
+  "wireinfo-down": "Down Port",
+}
